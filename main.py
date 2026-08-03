@@ -143,7 +143,7 @@ class MainWindow(QMainWindow):
             self.ui.tb_new_task_title.setText("")
         else :
             msg_box = QMessageBox()
-            msg_box.setText("AN ERROR HAS BEEN ACCURED")
+            msg_box.setText("AN ERROR HAS OCCURRED")
             msg_box.exec()
 
 
